@@ -1,0 +1,207 @@
+.order-list {
+    position: relative;
+}
+
+.order-list .order-list-box {
+    display: none;
+}
+
+.add-order {
+    position: relative;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.add-order-button {
+    border-radius: 20px;
+    border: 1px solid var(--1-border, #0071AF);
+    background: var(--1-white, #FFF);
+    padding: 5px 16px;
+    color: var(--1-text, #606060);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.order-list-option {
+    position: relative;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.order-list-button {
+    border-radius: 20px;
+    border: 1px solid var(--1-border, #E4E4E4);
+    background: var(--1-white, #FFF);
+    padding: 5px 16px;
+    color: var(--1-text, #606060);
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.filter {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+}
+
+.add-order-button a {
+    color: black;
+}
+
+.add-order-button a:visited {
+    color: black;
+}
+
+.order-list-box a {
+    color: black;
+    margin-right: 10px;
+}
+
+.order-list-box a:visited {
+    color: black;
+}
+
+.button {
+background: var(--d-9-d-9-d-9, #0071AF);
+color: white;
+}
+
+.order-list-option .order-list-button:active {
+background: var(--d-9-d-9-d-9, #0071AF);
+color: white;
+}
+
+.order-list-box.active {
+    display: block;
+}
+
+.confirm-delete-popup, .confirm-delete-output-popup {
+    position: absolute;
+    left:20%;
+    margin-top: 20px;
+    padding: 30px 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: #505050;
+    z-index: 3;
+    visibility: hidden;
+  }
+  
+ .confirm-delete-popup span, .confirm-delete-output-popup span {
+    color: var(--d-9-d-9-d-9, #0071AF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    margin-bottom: 5px;
+  }
+  
+.confirm-delete-popup p, .confirm-delete-output-popup p {
+    color: var(--text, #505050);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 20px;
+}
+
+.confirm-popup-button, .confirm-popup-output-button {
+display: flex;
+gap: 10px;
+}
+
+.confirm-popup-button .confirm-popup-cancel, .confirm-popup-output-button .confirm-popup-output-cancel {
+border-radius: 8px;
+border: 1px solid var(--1-border, #E4E4E4);
+background: var(--1-white, #FFF);
+color: var(--1-text, #606060);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.confirm-popup-button .confirm-popup-delete, .confirm-popup-output-button .confirm-popup-output-delete {
+border-radius: 8px;
+background: var(--d-9-d-9-d-9, #15A5E3);
+color: white;
+}
+
+.button-confirm {
+border-radius: 8px;
+border: 1px solid var(--d-9-d-9-d-9, #BA0122);
+background: #FFF;
+}
+
+.open-delete-popup, .open-delete-output-popup {
+    visibility: visible;
+}
+
+.dashboard-box-infor {
+    position: relative;
+    width: 250px;
+    height:280px;
+    background-color: #b8c7ce;
+    border-radius: 10px;
+    border: 1px solid var(--d-9-d-9-d-9, black);
+}
+
+.dashboard-box-infor span {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.dashboard-box-infor p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid var(--d-9-d-9-d-9, black);
+}
+
+.dashboard-box-infor a {
+    position: absolute;
+    color: black;
+    bottom: 0;
+    height: 20px;
+    width: 170px;
+    padding-left: 80px;
+    background-color: rgb(167, 173, 173);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dashboard-box-infor a:visited {
+    color: black;
+}
+
+.dashboard-box-infor .fa-regular {
+    position: absolute;
+    bottom: 2px;
+    right: 80px;
+
+}
